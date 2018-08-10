@@ -1,0 +1,182 @@
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+5
+There is no value 5 (Cache Miss)
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+6
+At address 6, there is a value 6. (Cache Hit)
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+7
+At address 7, there is a value 7. (Cache Hit)
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+14C
+There is no value 4C (Cache Miss)
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+14D
+At address 14D, there is a value 4D. (Cache Hit)
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+14E
+At address 14E, there is a value 4E. (Cache Hit)
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+14F
+At address 14F, there is a value 4F. (Cache Hit)
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+150
+There is no value 50 (Cache Miss)
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+151
+At address 151, there is a value 51. (Cache Hit)
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+3A6
+There is no value A6 (Cache Miss)
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+4C3
+There is no value C3 (Cache Miss)
+(R)ead, (W)rite or (D)isplay Cache ?
+D
+Slot     Valid      Tag    Dirty Bit       Data
+ 0         1         0         0           0   1   2   3   4   5   6   7   8   9   A   B   C   D   E   F 
+ 1         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 2         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 3         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 4         1         1         0          40  41  42  43  44  45  46  47  48  49  4A  4B  4C  4D  4E  4F 
+ 5         1         1         0          50  51  52  53  54  55  56  57  58  59  5A  5B  5C  5D  5E  5F 
+ 6         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 7         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 8         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 9         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ A         1         3         0          A0  A1  A2  A3  A4  A5  A6  A7  A8  A9  AA  AB  AC  AD  AE  AF 
+ B         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ C         1         4         0          C0  C1  C2  C3  C4  C5  C6  C7  C8  C9  CA  CB  CC  CD  CE  CF 
+ D         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ E         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ F         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+(R)ead, (W)rite or (D)isplay Cache ?
+W
+What address would you like to write? 
+14C
+What data would you like to write at the address?
+99
+Cache Hit 
+Value 99 has been written to address 14C.
+(R)ead, (W)rite or (D)isplay Cache ?
+W
+What address would you like to write? 
+63B
+What data would you like to write at the address?
+7
+Cache Miss !
+Value 7 has been written to address 63B.
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+582
+There is no value 82 (Cache Miss)
+(R)ead, (W)rite or (D)isplay Cache ?
+D
+Slot     Valid      Tag    Dirty Bit       Data
+ 0         1         0         0           0   1   2   3   4   5   6   7   8   9   A   B   C   D   E   F 
+ 1         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 2         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 3         1         6         1          30  31  32  33  34  35  36  37  38  39  3A   7  3C  3D  3E  3F 
+ 4         1         1         1          40  41  42  43  44  45  46  47  48  49  4A  4B  99  4D  4E  4F 
+ 5         1         1         0          50  51  52  53  54  55  56  57  58  59  5A  5B  5C  5D  5E  5F 
+ 6         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 7         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 8         1         5         0          80  81  82  83  84  85  86  87  88  89  8A  8B  8C  8D  8E  8F 
+ 9         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ A         1         3         0          A0  A1  A2  A3  A4  A5  A6  A7  A8  A9  AA  AB  AC  AD  AE  AF 
+ B         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ C         1         4         0          C0  C1  C2  C3  C4  C5  C6  C7  C8  C9  CA  CB  CC  CD  CE  CF 
+ D         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ E         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ F         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+348
+There is no value 48 (Cache Miss)
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+3F
+There is no value 3F (Cache Miss)
+(R)ead, (W)rite or (D)isplay Cache ?
+D
+Slot     Valid      Tag    Dirty Bit       Data
+ 0         1         0         0           0   1   2   3   4   5   6   7   8   9   A   B   C   D   E   F 
+ 1         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 2         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 3         1         0         0          30  31  32  33  34  35  36  37  38  39  3A  3B  3C  3D  3E  3F 
+ 4         1         3         0          40  41  42  43  44  45  46  47  48  49  4A  4B  4C  4D  4E  4F 
+ 5         1         1         0          50  51  52  53  54  55  56  57  58  59  5A  5B  5C  5D  5E  5F 
+ 6         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 7         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 8         1         5         0          80  81  82  83  84  85  86  87  88  89  8A  8B  8C  8D  8E  8F 
+ 9         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ A         1         3         0          A0  A1  A2  A3  A4  A5  A6  A7  A8  A9  AA  AB  AC  AD  AE  AF 
+ B         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ C         1         4         0          C0  C1  C2  C3  C4  C5  C6  C7  C8  C9  CA  CB  CC  CD  CE  CF 
+ D         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ E         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ F         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+14B
+There is no value 4B (Cache Miss)
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+14C
+At address 14C, there is a value 99. (Cache Hit)
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+63F
+There is no value 3F (Cache Miss)
+(R)ead, (W)rite or (D)isplay Cache ?
+R
+What address would you like to read? 
+83
+There is no value 83 (Cache Miss)
+(R)ead, (W)rite or (D)isplay Cache ?
+D
+Slot     Valid      Tag    Dirty Bit       Data
+ 0         1         0         0           0   1   2   3   4   5   6   7   8   9   A   B   C   D   E   F 
+ 1         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 2         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 3         1         6         0          30  31  32  33  34  35  36  37  38  39  3A   7  3C  3D  3E  3F 
+ 4         1         1         0          40  41  42  43  44  45  46  47  48  49  4A  4B  99  4D  4E  4F 
+ 5         1         1         0          50  51  52  53  54  55  56  57  58  59  5A  5B  5C  5D  5E  5F 
+ 6         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 7         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ 8         1         0         0          80  81  82  83  84  85  86  87  88  89  8A  8B  8C  8D  8E  8F 
+ 9         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ A         1         3         0          A0  A1  A2  A3  A4  A5  A6  A7  A8  A9  AA  AB  AC  AD  AE  AF 
+ B         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ C         1         4         0          C0  C1  C2  C3  C4  C5  C6  C7  C8  C9  CA  CB  CC  CD  CE  CF 
+ D         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ E         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
+ F         0         0         0           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 
